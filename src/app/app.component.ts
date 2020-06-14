@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngular-github-action-test';
+  title = 'angular-github-action-test';
   abc = 'fdsfdsfs';
 }
