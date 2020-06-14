@@ -29,9 +29,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Running npm install
-        run: npm ci
-      - name: Running linting
-        run: npm run lint
-      - name: Running tests
-        run: npm run test-headless
+      - name: Running linting and tests
+        run: | 
+          npm ci
+          npm run lint
+          npm run test-headless
