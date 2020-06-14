@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-github-action-test';
-  abc = "fdsfdsfs";
+  abc = 'fdsfdsfs';
 }
